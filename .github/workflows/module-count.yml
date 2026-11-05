@@ -29,6 +29,6 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - name: Verify published module counts match the code
         run: python3 scripts/check-module-count.py
