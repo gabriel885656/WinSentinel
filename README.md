@@ -614,18 +614,3 @@ Use the official [GitHub Action](https://github.com/gabriel885656/WinSentinel/tr
     sarif: true                            # upload results to GitHub Code Scanning
 ```
 
----
-
-## 📄 License
-
-MIT License - see [LICENSE](LICENSE) for details.
-
----
-
-<div align="center">
-
-**Built with C# on .NET 8 · 111k+ LOC · 5,376 tests · 64 audit modules · Always watching 🛡️**
-
-[⭐ Star](https://github.com/gabriel885656/WinSentinel) · [🐛 Report Bug](https://github.com/gabriel885656/WinSentinel/issues) · [💡 Request Feature](https://github.com/gabriel885656/WinSentinel/issues)
-
-</div>

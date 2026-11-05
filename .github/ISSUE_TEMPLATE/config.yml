@@ -1,9 +1,0 @@
-blank_issues_enabled: false
-# Templates: bug_report, feature_request, performance_issue, security_report, audit_module_request, compatibility_issue, documentation_issue
-contact_links:
-  - name: 📖 Documentation
-    url: https://sauravbhattacharya001.github.io/WinSentinel/
-    about: Check the docs before opening an issue — your answer might already be there.
-  - name: 🔒 Report Critical Security Vulnerability
-    url: https://github.com/sauravbhattacharya001/WinSentinel/blob/main/SECURITY.md
-    about: For critical vulnerabilities, please follow our Security Policy for private disclosure.
