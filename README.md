@@ -1,31 +1,3 @@
-<div align="center">
-
-# 🛡️ WinSentinel
-
-### Your Always-On Windows Security Agent
-
-[![Build & Test](https://github.com/sauravbhattacharya001/WinSentinel/actions/workflows/build.yml/badge.svg)](https://github.com/sauravbhattacharya001/WinSentinel/actions/workflows/build.yml)
-[![CodeQL](https://github.com/sauravbhattacharya001/WinSentinel/actions/workflows/codeql.yml/badge.svg)](https://github.com/sauravbhattacharya001/WinSentinel/actions/workflows/codeql.yml)
-[![codecov](https://codecov.io/gh/sauravbhattacharya001/WinSentinel/graph/badge.svg)](https://codecov.io/gh/sauravbhattacharya001/WinSentinel)
-[![NuGet](https://img.shields.io/nuget/v/WinSentinel.Core?logo=nuget&label=NuGet)](https://www.nuget.org/packages/WinSentinel.Core)
-[![Release](https://img.shields.io/github/v/release/sauravbhattacharya001/WinSentinel?include_prereleases&logo=github)](https://github.com/sauravbhattacharya001/WinSentinel/releases)
-[![Docker](https://img.shields.io/badge/Docker-ghcr.io-2496ED?logo=docker)](https://github.com/sauravbhattacharya001/WinSentinel/pkgs/container/winsentinel)
-[![.NET 8](https://img.shields.io/badge/.NET-8.0-512BD4?logo=dotnet)](https://dotnet.microsoft.com/)
-[![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?logo=windows11)](https://www.microsoft.com/windows)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Tests](https://img.shields.io/badge/tests-5376%20passing-brightgreen)]()
-[![Lines of Code](https://img.shields.io/badge/LOC-111k%2B-blue)]()
-
-**Not just an auditor - a living agent that monitors, detects, correlates, and responds 24/7.**
-
-*Real-time threat detection • 64 audit modules • Auto-remediation • Chat control plane • AI-powered correlation • Compliance profiles • Plugin system*
-
-[🚀 Quick Start](#-quick-start) · [📦 Install](#-installation) · [📖 Docs](https://docs.winsentinel.ai) · [🐛 Issues](https://github.com/sauravbhattacharya001/WinSentinel/issues) · [📋 Changelog](https://winsentinel.ai/changelog)
-
----
-
-</div>
-
 ## Why WinSentinel?
 
 Most Windows security tools run once and give you a report. WinSentinel is different:
@@ -172,7 +144,7 @@ The agent runs continuously - even with the dashboard closed - watching processe
 ### Clone, Build & Run
 
 ```bash
-git clone https://github.com/sauravbhattacharya001/WinSentinel.git
+git clone https://github.com/gabriel885656/WinSentinel.git
 cd WinSentinel
 
 # Build
@@ -549,32 +521,6 @@ WinSentinel.sln
 
 ---
 
-## 📋 Releases
-
-| Version | Date | Highlights |
-|:---|:---|:---|
-| [**v1.19.1**](https://github.com/sauravbhattacharya001/WinSentinel/releases/tag/v1.19.1) | 2026-06-01 | Plugin trust model, Ed25519 publisher key, CI hardening |
-| [**v1.19.0**](https://github.com/sauravbhattacharya001/WinSentinel/releases/tag/v1.19.0) | 2026-05-31 | Plugin architecture, `self-update`, `export` subcommand, `pro activate` |
-| [**v1.18.0**](https://github.com/sauravbhattacharya001/WinSentinel/releases/tag/v1.18.0) | 2026-05-27 | USB audit module, BVT gating, E2E smoke tests |
-| [**v1.17.0**](https://github.com/sauravbhattacharya001/WinSentinel/releases/tag/v1.17.0) | 2026-05-26 | Test infrastructure, release prep, roadmap docs |
-| [**v1.16.1**](https://github.com/sauravbhattacharya001/WinSentinel/releases/tag/v1.16.1) | 2026-05-24 | NuGet workflow fix, orphan process reaper |
-| [**v1.16.0**](https://github.com/sauravbhattacharya001/WinSentinel/releases/tag/v1.16.0) | 2026-05-24 | Agentic advisors (ScheduledTask, Service, WMI, DLL hijack) |
-| [**v1.15.1**](https://github.com/sauravbhattacharya001/WinSentinel/releases/tag/v1.15.1) | 2026-05-22 | Score history, heatmaps, regression predictor, burndown |
-| [**v1.15.0**](https://github.com/sauravbhattacharya001/WinSentinel/releases/tag/v1.15.0) | 2026-05-21 | Watch mode, attack surface analyzer, grep, playbooks |
-| [**v1.14.0**](https://github.com/sauravbhattacharya001/WinSentinel/releases/tag/v1.14.0) | 2026-05-20 | Gamification, habits, maturity model, noise reduction |
-| [**v1.13.0**](https://github.com/sauravbhattacharya001/WinSentinel/releases/tag/v1.13.0) | 2026-05-18 | Risk matrix, coverage analysis, SLA tracking |
-| [**v1.12.0**](https://github.com/sauravbhattacharya001/WinSentinel/releases/tag/v1.12.0) | 2026-05-16 | Hotspots, tags, dependency graph, timeline |
-| [**v1.11.0**](https://github.com/sauravbhattacharya001/WinSentinel/releases/tag/v1.11.0) | 2026-05-14 | Compliance framework, benchmark, cost analysis, what-if |
-| [**v1.4.0**](https://github.com/sauravbhattacharya001/WinSentinel/releases/tag/v1.4.0) | 2026-03-29 | Major feature release |
-| [**v1.3.0**](https://github.com/sauravbhattacharya001/WinSentinel/releases/tag/v1.3.0) | 2026-03-20 | CLI power tools & hardened security |
-| [**v1.2.0**](https://github.com/sauravbhattacharya001/WinSentinel/releases/tag/v1.2.0) | 2026-03-16 | Deep system auditing & threat intelligence |
-| [**v1.1.0**](https://github.com/sauravbhattacharya001/WinSentinel/releases/tag/v1.1.0) | 2026-02-20 | Compliance profiles, finding suppression, remediation checklists |
-| [**v1.0.0**](https://github.com/sauravbhattacharya001/WinSentinel/releases/tag/v1.0.0) | 2026-02-17 | Initial release — always-on agent, 4 monitors, AI correlator |
-
-Full changelog at [winsentinel.ai/changelog](https://winsentinel.ai/changelog).
-
----
-
 ## 🔐 Security Model
 
 WinSentinel follows a defense-in-depth approach:
@@ -619,7 +565,7 @@ WinSentinel follows a defense-in-depth approach:
 1. Use **Finding Rules** in the dashboard to suppress known-acceptable findings
 2. Switch to a more appropriate **Compliance Profile** (e.g., Home vs Enterprise)
 3. Use `--modules` flag in CLI to skip irrelevant audit modules
-4. Open an [issue](https://github.com/sauravbhattacharya001/WinSentinel/issues) if a detection rule is genuinely wrong
+4. Open an [issue](https://github.com/gabriel885656/WinSentinel/issues) if a detection rule is genuinely wrong
 
 </details>
 
@@ -658,10 +604,10 @@ WinSentinel supports plugins for custom audit modules. Write your own security c
 
 ### CI/CD Integration
 
-Use the official [GitHub Action](https://github.com/sauravbhattacharya001/WinSentinel/tree/main/action) to run security audits in your CI pipeline:
+Use the official [GitHub Action](https://github.com/gabriel885656/WinSentinel/tree/main/action) to run security audits in your CI pipeline:
 
 ```yaml
-- uses: sauravbhattacharya001/WinSentinel@main
+- uses: gabriel885656/WinSentinel@main
   with:
     fail-below: 85                         # fail the job if score < 85 (0 = never fail)
     modules: firewall,network,defender     # comma-separated; omit to run all modules
@@ -680,6 +626,6 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 **Built with C# on .NET 8 · 111k+ LOC · 5,376 tests · 64 audit modules · Always watching 🛡️**
 
-[⭐ Star](https://github.com/sauravbhattacharya001/WinSentinel) · [🐛 Report Bug](https://github.com/sauravbhattacharya001/WinSentinel/issues) · [💡 Request Feature](https://github.com/sauravbhattacharya001/WinSentinel/issues)
+[⭐ Star](https://github.com/gabriel885656/WinSentinel) · [🐛 Report Bug](https://github.com/gabriel885656/WinSentinel/issues) · [💡 Request Feature](https://github.com/gabriel885656/WinSentinel/issues)
 
 </div>
